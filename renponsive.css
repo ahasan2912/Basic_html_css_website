@@ -1,0 +1,50 @@
+@media(min-width:320px) and (max-width:620px){
+    .Hero{
+    width: 100%;
+    min-height: 120vh;
+    padding: 0px;
+}
+   nav{
+    width: 50%;
+    display: block;
+    padding: 10% 0px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+nav ul{
+    display: block;
+}
+    .Loing_down{
+        display: flex;
+        flex-direction: column;
+    }
+    .Loing_down .login_btn{
+        margin-top: 8%;
+        margin-left: 8%;
+    }
+    .Loing_down .btn{
+        margin-top: 10%;
+        margin-right: 20%;
+        padding: 10px 30px  ;
+    }
+    .feature{
+    width: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 0px;
+}
+    .content h1{
+    font-size: 30px;
+    color: #222;
+    text-align: center;
+}
+.content p{
+    font-size: 18px;
+    margin-left: 5%;
+}
+.content .btn{
+    padding: 10px 30px;
+    margin-left: 20%;
+}
+}
